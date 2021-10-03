@@ -1,0 +1,22 @@
+.about-container {
+    background-image: linear-gradient(rgba(80, 79, 79, 0.7), rgba(0, 0, 0, 0.7)), url(../../image/lunch-box-2-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 93vh;
+    width: 100%;
+}
+.about-title {
+    padding-top: 250px;
+    margin-left: 100px;
+    color: #f39c12;
+    font-size: 3.5em;
+    font-weight: 700;
+}
+.about-details {
+    margin-left: 100px;
+    margin-top: 0;
+    padding-top: 0;
+    color: #cfcfcf;
+    font-size: 1.2em;
+    font-weight: 500;
+}

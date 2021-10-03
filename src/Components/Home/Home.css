@@ -1,0 +1,20 @@
+.home-container {
+    background-image: linear-gradient(rgba(80, 79, 79, 0.5), rgba(0, 0, 0, 0.5)), url(../../image/lunch-box-min.jpg);
+    height: 93vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.home-title  {
+    padding-top: 300px;
+    margin-left: 200px;
+    color: #f39c12;
+    font-size: 3.5em;
+    font-weight: 700;
+}
+.home-tagline {
+    margin-left: 200px;
+    color: #95a5a6;
+    font-size: 2.5em;
+    font-weight: 700;
+}
