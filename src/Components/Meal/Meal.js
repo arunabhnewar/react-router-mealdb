@@ -6,10 +6,10 @@ const Meal = (props) => {
     const { idMeal, strMeal, strArea, strMealThumb, strCategory, strYoutube } = props.meal;
     return (
         <div className="meal-card">
-            <Card style={{ width: '18rem', height: '520px' }}>
+            <Card style={{ width: '18rem', height: '530px' }}>
                 <Card.Img variant="top" src={strMealThumb} />
                 <Card.Body>
-                    <Card.Title>{strMeal}</Card.Title>
+                    <Card.Title>{strMeal.slice(0, 30)}</Card.Title>
                     <Card.Text>
                         Id: {idMeal}
                     </Card.Text>

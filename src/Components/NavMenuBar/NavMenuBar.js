@@ -25,6 +25,7 @@ const NavMenuBar = () => {
                                 >
                                     Home
                                 </NavLink>
+
                                 <NavLink
                                     to="/about"
                                     className="text-decoration-none"
@@ -35,6 +36,7 @@ const NavMenuBar = () => {
                                 >
                                     About
                                 </NavLink>
+
                                 <NavLink
                                     to="/resturant"
                                     className="text-decoration-none"
@@ -44,6 +46,17 @@ const NavMenuBar = () => {
                                     }}
                                 >
                                     Resturant
+                                </NavLink>
+
+                                <NavLink
+                                    to="/categories"
+                                    className="text-decoration-none"
+                                    activeStyle={{
+                                        fontWeight: "bold",
+                                        color: "orange"
+                                    }}
+                                >
+                                    Categories
                                 </NavLink>
 
                             </Stack>

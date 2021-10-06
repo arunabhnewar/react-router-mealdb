@@ -5,6 +5,7 @@ import NotFound from './Components/NotFound/NotFound';
 import NavMenuBar from './Components/NavMenuBar/NavMenuBar';
 import Resturant from './Components/Resturant/Resturant';
 import About from './Components/About/About';
+import Categories from './Components/Categories/Categories';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route exact path="/about">
             <About />
+          </Route>
+          <Route exact path="/categories">
+            <Categories />
           </Route>
           <Route exact path="*">
             <NotFound />
